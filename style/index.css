@@ -1,0 +1,9 @@
+
+.slide{
+    height: 500px;
+    width: 100%;
+    min-width: 1200px;
+    background: url("../images/index/index-1.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}

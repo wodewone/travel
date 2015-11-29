@@ -1,0 +1,55 @@
+/*header*/
+.header-inner{
+    height: 100px;
+    line-height: 100px;
+}
+.header-nav{
+    float: left;
+    margin-left: 226px;
+    font-size: 20px;
+}
+.header-nav .nav-item{
+    float: left;
+    position: relative;
+}
+.header-nav .nav-item .title{
+    cursor: pointer;
+    display: block;
+    padding: 60px 20px 0 20px;
+    height: 100px;
+    line-height: 20px;
+}
+.header-nav .nav-item.active, .header-nav .nav-item:hover{
+    background: #eb6542;
+    color: #fff;
+}
+.header-nav .nav-item .second-nav{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+}
+.header-nav .nav-item:hover .second-nav{
+    display: block;
+}
+.header-nav .nav-item .second-nav ul li{
+    width: 300px;
+}
+.header-nav .nav-item .second-nav ul li .link{
+    display: block;
+    padding: 15px 0 15px 40px;
+    text-decoration: none;
+}
+.header-nav .nav-item .second-nav ul li:hover{
+    background: #f3f3f3;
+}
+.login-box a.btn{
+    font-size: 20px;
+    border: none;
+    padding: 60px 20px 0 20px;
+    height: 100px;
+    float: left;
+    background: none;
+    box-shadow: none;
+}

@@ -1,0 +1,26 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html,body{
+    color: #424243;
+}
+ul,li{
+    list-style: none;
+    margin: 0;
+}
+a.link, a.link:hover, a.link:active, a.link:focus{
+    outline: none;
+    outline-offset: 0;
+}
+.mw{
+    width: 1200px;
+    margin: 0 auto;
+}
+.m-color, a.m-color, a.btn.m-color:hover, a.btn.m-color:active, a.btn.m-color:focus{
+    color: #eb6542;
+}
+a.link, a.link:hover, a.link:active, a.link:focus{
+    color: #424243;
+}
